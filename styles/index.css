@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+:root {
+    --bg-color:rgb(207, 189, 154);
+}
+body {
+    margin:0px;
+    text-align: center;
+    font-family: 'Secular One', sans-serif;
+    background-color: var(--bg-color);
+}
+
+.phone-store-header {
+    margin-bottom:30px;
+}
+
+#search-input {
+    width:20%;
+    padding:10px;
+    border-radius:20px;
+    font-size: 18px;
+}
+
+#search-btn {
+    padding:8px;
+    border-radius:20px;
+    background-color: antiquewhite;
+    font-size: 18px;
+}
+
+#search-input:focus {
+    background-color: rgb(192, 155, 182);
+    color:rgb(10, 13, 176);
+    font-weight: bolder;
+}
+#phone-container {
+    width:90%;
+    margin:auto;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+
+}
+.phone-card-container {
+    width:16%;
+    margin:10px;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+.phone-img-container {
+    display:flex;
+    
+}
+
+.phone-img-container img {
+    width:100%;
+    border-radius: 20px;
+}
+
+.phone-name {
+    margin:15px;
+    font-size:25px;
+}
