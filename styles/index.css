@@ -63,3 +63,14 @@ body {
     margin:15px;
     font-size:25px;
 }
+
+#no-match {
+    display:none;
+    font-size:25px;
+    color:rgb(68, 0, 255);
+}
+
+#error-container {
+    color:red;
+    font-size: 40px;
+}
